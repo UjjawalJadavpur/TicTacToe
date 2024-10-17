@@ -9,7 +9,7 @@ function deriveWinner(gameBoard) {
         const thirdSquareSymbol = gameBoard[combination[2].row][combination[2].column];
 
         if (firstSquareSymbol && firstSquareSymbol === secondSquareSymbol && firstSquareSymbol === thirdSquareSymbol) {
-            return firstSquareSymbol; // X or O won
+            return firstSquareSymbol; 
         }
     }
 
@@ -19,15 +19,13 @@ function deriveWinner(gameBoard) {
         return 'Draw';
     }
 
-    return null; // No winner yet, and board isn't full
+    return null; 
 }
 
 function GameOver({ gameBoard }) {
     const { resetTurns, gameTurns } = useGameStore();
 
     const winner = deriveWinner(gameBoard);
-
-    // Determine if the game has ended (either by win or by draw)
     const isGameOver = winner !== null || gameTurns.length === 9;
 
     function handleRestart() {

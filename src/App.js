@@ -4,7 +4,6 @@ import GameBoard from './component/GameBoard.jsx';
 import Header from './component/Header.jsx';
 import Player from './component/Player.jsx';
 import Log from './component/Log.jsx';
-import GameOver from './component/GameOver.jsx';
 import useGameStore from './zustand/useGameStore.jsx';
 
 
