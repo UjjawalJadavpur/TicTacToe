@@ -1,10 +1,10 @@
-/* General body styles */
+
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f9; /* Softer background for a cleaner look */
-  color: #333; /* Consistent text color */
+  background-color: #f4f4f9; 
+  color: #333; 
 }
 
 .App {
@@ -24,7 +24,7 @@ body {
   padding: 20px;
   color: white;
   width: 100%;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .header img {
@@ -33,7 +33,7 @@ body {
 }
 
 .header h1 {
-  font-size: 2.5rem; /* Increased font size for better readability */
+  font-size: 2.5rem; 
   font-weight: 700;
   margin: 0;
 }
@@ -70,7 +70,7 @@ body {
   border-radius: 10px;
   font-weight: bold;
   padding: 1rem;
-  transition: background-color 0.3s ease; /* Smooth transition for activation */
+  transition: background-color 0.3s ease; 
 }
 
 .active {
@@ -79,7 +79,7 @@ body {
   font-weight: bold;
   padding: 1rem;
   color: #333;
-  background-color: #e0f7e0; /* Slightly tinted background for active state */
+  background-color: #e0f7e0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -88,14 +88,14 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 100px);
   grid-template-rows: repeat(3, 100px);
-  gap: 10px; /* Increased gap for better clarity */
+  gap: 10px;
   justify-content: center;
 }
 
 .square {
   width: 100px;
   height: 100px;
-  font-size: 2.5rem; /* Larger font size for better visibility */
+  font-size: 2.5rem; 
   color: #333;
   background-color: #fff;
   border: 2px solid #ccc;
@@ -108,7 +108,7 @@ body {
 
 .square:hover {
   background-color: #f0f0f0;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .square:disabled {
@@ -123,7 +123,7 @@ body {
   background-color: #fff;
   border-radius: 8px;
   padding: 15px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .log ol {
